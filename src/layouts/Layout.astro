@@ -1,22 +1,42 @@
+---
+import '@/styles/global.css';
+import { cn } from '@/utils';
+
+const { centerContent } = Astro.props;
+
+const containerClass = cn(
+  'mx-auto grid h-screen max-w-4xl gap-30',
+  centerContent && 'items-center',
+);
+---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>
+      Chandler Moisen | Software Developer, Product Designer, and Technology
+      Educator
+    </title>
+  </head>
+  <body>
+    <div class={containerClass}>
+      <div class="space-between flex justify-between py-5">
+        <div>Chandler Moisen</div>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+        <nav class="flex gap-2">
+          <a href="/projects">Projects</a>
+          <a href="/notes">Notes</a>
+          <a href="/about">About</a>
+        </nav>
+      </div>
+
+      <main>
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
