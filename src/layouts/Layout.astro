@@ -4,10 +4,7 @@ import { cn } from '@/utils';
 
 const { centerContent } = Astro.props;
 
-const containerClass = cn(
-  'mx-auto grid h-screen max-w-4xl gap-30',
-  centerContent && 'items-center',
-);
+const mainClass = cn(centerContent && 'flex items-center');
 ---
 
 <!doctype html>
@@ -15,26 +12,31 @@ const containerClass = cn(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><text x="0" y="24" font-size="24">🐙</text></svg>'
+    />
     <meta name="generator" content={Astro.generator} />
-    <title>
-      Chandler Moisen | Software Developer, Product Designer, and Technology
-      Educator
-    </title>
+    <title>Chandler Moisen - Frontend Architect / Design Engineer</title>
   </head>
   <body>
-    <div class={containerClass}>
-      <div class="space-between flex justify-between py-5">
-        <div>Chandler Moisen</div>
+    <div
+      class="mx-auto grid h-screen max-w-4xl grid-rows-[min-content_auto] px-4 md:px-2 lg:px-0"
+    >
+      <div class="space-between flex items-center justify-between py-6">
+        <div class="text-lg font-semibold">
+          <a href="/">Chandler Moisen</a>
+        </div>
 
-        <nav class="flex gap-2">
-          <a href="/projects">Projects</a>
-          <a href="/notes">Notes</a>
+        <nav class="flex gap-4 text-sm">
+          <a href="/work">Work</a>
+          <a href="/writing">Writing</a>
           <a href="/about">About</a>
         </nav>
       </div>
 
-      <main>
+      <main class={mainClass}>
         <slot />
       </main>
     </div>
