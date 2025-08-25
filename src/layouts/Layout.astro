@@ -2,6 +2,8 @@
 import '@/styles/global.css';
 import Footer from '@/components/Footer.astro';
 import { cn } from '@/utils';
+import Moon from '@/assets/moon.svg';
+import Sun from '@/assets/sun.svg';
 
 const { centerContent } = Astro.props;
 
@@ -22,19 +24,24 @@ const mainClass = cn(centerContent && 'flex items-center');
     <title>Chandler Moisen - Frontend Architect / Design Engineer</title>
   </head>
 
-  <body>
+  <body class="dark:bg-gray-950 dark:text-white">
     <div
       class="mx-auto grid h-screen max-w-4xl grid-rows-[min-content_auto_min-content] px-4 md:px-2 lg:px-0"
     >
       <div class="space-between flex items-center justify-between py-6">
-        <div class="text-lg font-semibold">
+        <div class="text-base font-semibold md:text-lg">
           <a href="/">Chandler Moisen</a>
         </div>
 
         <nav class="flex gap-4 text-sm font-medium">
-          <a href="/work" data-astro-prefetch>Work</a>
-          <a href="/writing" data-astro-prefetch>Writing</a>
-          <a href="/about" data-astro-prefetch>About</a>
+          <a href="/work" class="dark:text-gray-500" data-astro-prefetch>Work</a
+          >
+          <a href="/writing" class="dark:text-gray-500" data-astro-prefetch
+            >Writing</a
+          >
+          <a href="/about" class="dark:text-gray-500" data-astro-prefetch
+            >About</a
+          >
         </nav>
       </div>
 
@@ -43,6 +50,19 @@ const mainClass = cn(centerContent && 'flex items-center');
       </main>
 
       {!centerContent && <Footer />}
+
+      <div
+        class="dark-mode-toggle fixed right-4 bottom-4 w-9 cursor-pointer rounded-full bg-black p-2 text-white dark:bg-white dark:text-black"
+      >
+        <Moon class="h-5 dark:hidden" />
+        <Sun class="hidden h-5 dark:block" />
+      </div>
     </div>
   </body>
 </html>
+
+<script>
+  document.querySelector('.dark-mode-toggle')?.addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark');
+  });
+</script>
