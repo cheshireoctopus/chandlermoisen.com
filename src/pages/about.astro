@@ -1,12 +1,13 @@
 ---
-import Layout from '@/layouts/Layout.astro';
 import '@/styles/global.css';
+import Layout from '@/layouts/Layout.astro';
+import PageTitle from '@/components/PageTitle.astro';
 ---
 
 <Layout>
-  <h1 class="py-10 text-center text-5xl font-semibold">About</h1>
+  <PageTitle>About</PageTitle>
 
-  <div class="mx-auto grid max-w-xl gap-4">
+  <div class="mx-auto grid max-w-2xl gap-4">
     <p>👋 Hello, I'm Chandler.</p>
 
     <p>I am a software developer living in Colorful Colorado.</p>

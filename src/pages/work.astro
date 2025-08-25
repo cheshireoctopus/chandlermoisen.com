@@ -1,8 +1,103 @@
 ---
+import PageTitle from '@/components/PageTitle.astro';
 import Layout from '@/layouts/Layout.astro';
 import '@/styles/global.css';
+
+const workExperience = [
+  {
+    company: 'QuickMD',
+    title: 'Principal UI Engineer',
+    years: '2024 - Current',
+  },
+  {
+    company: 'Marley Medical',
+    title: 'Head of Engineering',
+    years: '2022 - 2024',
+  },
+  {
+    company: 'Ro',
+    title: 'Tech Lead',
+    years: '2019 - 2022',
+  },
+  {
+    company: 'General Assembly',
+    title: 'Software Engineer',
+    years: '2018 - 2019',
+  },
+  {
+    company: 'Teachable',
+    title: 'Frontend Engineer',
+    years: '2017 - 2018',
+  },
+  {
+    company: 'Percolate',
+    title: 'Frontend Engineer',
+    years: '2015 - 2017',
+  },
+  {
+    company: 'Ende Solutions',
+    title: 'Lead Frontend Developer',
+    years: '2014 - 2015',
+  },
+];
+
+const projects = [
+  {
+    title: 'MugClub.beer',
+    description: 'Loyalty management for craft breweries',
+  },
+  {
+    title: `Washington's Hammer`,
+    description: 'Workforce development for trades in Naval ship repair',
+  },
+];
 ---
 
 <Layout>
-  <h1>Work</h1>
+  <PageTitle>Work</PageTitle>
+
+  <div class="mx-auto grid max-w-2xl gap-8">
+    <div class="grid gap-3">
+      <h2 class="text-sm font-medium text-gray-400">Work Experience</h2>
+
+      <div class="grid gap-2">
+        {
+          workExperience.map((experience) => (
+            <div class="flex items-center gap-3">
+              <div class="text-xs font-medium md:text-base">
+                {experience.company}
+              </div>
+              <hr class="flex-1 border-gray-200" />
+              <div class="text-xs text-gray-500 md:text-base">
+                {experience.title}
+              </div>
+              <div class="text-xs text-gray-400 md:text-sm">
+                {experience.years}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="grid gap-3">
+      <h2 class="text-sm font-medium text-gray-400">Projects</h2>
+
+      <div class="grid gap-2">
+        {
+          projects.map((project) => (
+            <div class="flex flex-col items-start md:flex-row md:items-center md:gap-3">
+              <div class="text-xs font-medium md:text-base">
+                {project.title}
+              </div>
+              <hr class="hidden flex-1 border-gray-200 md:block" />
+              <div class="text-xs text-gray-500 md:text-base">
+                {project.description}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
 </Layout>
