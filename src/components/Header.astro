@@ -1,5 +1,13 @@
 ---
 import '@/styles/global.css';
+import { cn } from '@/utils';
+
+const { pathname } = Astro.url;
+
+const linkClass = (href: string) =>
+  pathname === href
+    ? 'dark:text-gray-500 text-black underline'
+    : 'dark:text-gray-500';
 ---
 
 <div class="space-between flex items-center justify-between py-6">
@@ -8,11 +16,12 @@ import '@/styles/global.css';
   </div>
 
   <nav class="flex gap-4 text-sm font-medium">
-    <a href="/experience" class="dark:text-gray-500" data-astro-prefetch
+    <a href="/experience" class={linkClass('/experience')} data-astro-prefetch
       >Experience</a
     >
-    <a href="/writing" class="dark:text-gray-500" data-astro-prefetch>Writing</a
+    <a href="/writing" class={linkClass('/writing')} data-astro-prefetch
+      >Writing</a
     >
-    <a href="/about" class="dark:text-gray-500" data-astro-prefetch>About</a>
+    <a href="/about" class={linkClass('/about')} data-astro-prefetch>About</a>
   </nav>
 </div>
