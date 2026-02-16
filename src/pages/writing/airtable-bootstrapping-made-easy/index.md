@@ -7,7 +7,7 @@ redirects:
   - /airtable-bootstrapping-made-easy
 ---
 
-![airtable logo](./airtable-logo.png)
+![airtable logo](/images/airtable-bootstrapping-made-easy/airtable-logo.png)
 
 For a new side project, [Keming](https://keming.io), my partner and I needed to quickly validate interest in our product. To do so, we designed and built a landing page scoped to the following constraints:
 

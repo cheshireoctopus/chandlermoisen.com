@@ -15,7 +15,7 @@ We are thus forced to make compromises. An approach to structuring your compromi
 
 Assume we are testing a technology stack consisting of a database, an API, a client data layer (responsible for fetching and parsing server responses), a client rendering layer (think: React), and finally how a user is engaging with this application. You could model this stack by "depth" where the database is the deepest level of the stack and the user is at the top:
 
-![mock low test high](./graphic.png)
+![mock low test high](/images/mock-low-assert-high/graphic.png)
 
 The strategy here is to test as many layers of the stack as possible as cheaply as possible.
 

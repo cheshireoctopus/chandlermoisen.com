@@ -13,7 +13,7 @@ You can think of Pigeon as the [New York City Subway's Waze](https://www.theverg
 
 While I could expound Pigeon's UI and features, something they recently did struck me as notable:
 
-![pigeon transit app error](./oops-pigeon.png)
+![pigeon transit app error](/images/own-your-mistakes/oops-pigeon.png)
 
 Pigeon sent me a notification that they had messed up!
 

@@ -27,4 +27,4 @@ If this list feels familiar that is because the network tab in Chrome developer 
 
 To export/import a HAR file in Chrome, open developer tools and navigate to the "Network" tab and use the appropriate arrow:
 
-![developer tools har export](./dev-tools-har-export.png)
+![developer tools har export](/images/http-archive-file/dev-tools-har-export.png)

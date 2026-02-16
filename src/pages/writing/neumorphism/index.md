@@ -11,7 +11,7 @@ Well, rather, I finally learned what this design trend I have been seeing for mo
 
 The term is a weak portmanteau of "new" and "skeuomorphism" - a design pattern where elements of a graphical user interface imitate their RL equivalent in either appearance or interaction.
 
-![examples of skeuomorphism](./skeuomorphism.jpg)
+![examples of skeuomorphism](/images/neumorphism/skeuomorphism.jpg)
 
 Neumorphism is a visual design pattern where shadows are used to create the illusion of extruding shapes. These extrusions share the same coloring as their parent element.
 

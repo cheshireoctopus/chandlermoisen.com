@@ -8,7 +8,7 @@ redirects:
   - /roll-your-own-static-site
 ---
 
-![rolling on friday](./rolling.gif)
+![rolling on friday](/images/roll-your-own-static-site/rolling.gif)
 
 Recently I decided to rebuild my long neglected and dilapidated blog - previously powered by [Octopress](http://octopress.org/) - using JavaScript.
 

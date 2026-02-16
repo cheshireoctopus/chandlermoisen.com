@@ -8,7 +8,7 @@ redirects:
   - /curiosity-and-why-react-needs-to-be-in-scope
 ---
 
-![curious cat](./curious.jpg)
+![curious cat](/images/curiosity-and-why-react-needs-to-be-in-scope/curious.jpg)
 
 ### Curiosity
 

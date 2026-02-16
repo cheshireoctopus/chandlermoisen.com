@@ -27,4 +27,4 @@ If you haven't come across how the browser console displays an anonymous functio
 
 would yield the following in your browser's console:
 
-![anonymous function stack trace](./anonymous-function-stack-trace.png)
+![anonymous function stack trace](/images/export-named-components/anonymous-function-stack-trace.png)

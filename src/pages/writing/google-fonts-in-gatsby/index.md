@@ -123,7 +123,7 @@ Please note that you must correctly capitalize the font family in the configurat
 
 For example, comparing `'Open Sans'` vs. `'Open sans'` - the lower-cased `sans` will cause the prefetching to fail and the following error to show during the build:
 
-![gatsby google font build error](./gatsby-google-font-error.png)
+![gatsby google font build error](/images/google-fonts-in-gatsby/gatsby-google-font-error.png)
 
 ### Pros
 

@@ -9,7 +9,7 @@ redirects:
 
 When I began my career as a software engineer, I suffered the misconception that software development was a straight-forward, unidirectional, two-step system:
 
-![the software development process](./the-software-development-process.png)
+![the software development process](/images/saying-no/the-software-development-process.png)
 
 This misconception led to a series of pernicious beliefs in how I approached daily work.
 
@@ -17,7 +17,7 @@ This misconception led to a series of pernicious beliefs in how I approached dai
 
 Engineering is only responsible for shipping as shipping is the most visible mechanism for realizing an engineering's value. An engineer's value to the organization is worthless until they smashed that "Merge pull request" button.
 
-![merge pull request button](./merge-button.png)
+![merge pull request button](/images/saying-no/merge-button.png)
 
 ### Pernicious Belief 2: Engineers Are Paid to Code
 

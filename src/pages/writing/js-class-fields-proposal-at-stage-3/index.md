@@ -8,7 +8,7 @@ redirects:
   - /js-class-fields-proposal-at-stage-3
 ---
 
-![tc39 process](./tc39_process.jpg)
+![tc39 process](/images/js-class-fields-proposal-at-stage-3/tc39_process.jpg)
 
 In case you haven't heard the news, Daniel Ehrenberg and Jeff Morrison's [ESnext class features for JavaScript](https://github.com/tc39/proposal-class-fields) proposal was moved from [stage-2 to stage-3](https://github.com/tc39/proposal-class-fields/commit/5a4ff5fa4bf30885188279f6fb8070f2e1903c32).
 

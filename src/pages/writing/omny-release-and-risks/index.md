@@ -9,7 +9,7 @@ redirects:
 
 For those of us in the center of the universe, the New York City MTA has finally unveiled [support for contactless payments](https://techcrunch.com/2019/05/31/nycs-contactless-subway-turnstiles-open-today-with-apple-google-samsung-and-fitbit-pay-support/).
 
-![contactless payment](./contactless-payment.jpg)
+![contactless payment](/images/omny-release-and-risks/contactless-payment.jpg)
 
 Long awaited - Chicago has had [contactless payment since 2013](https://www.ventrachicago.com/) - the new [OMNY](https://new.mta.info/system_modernization/omny) (One Metro New York) payment system went live last Friday across select transit lines.
 
@@ -19,7 +19,7 @@ Given the sheer scale of the MTA's infrastructure and the number of customers it
 
 Similar to how the MTA overhauled its payment system from 1992 to 2003 as it migrated from tokens to magnetic stripe cards, OMNY is expected to be implemented in phases and not complete until 2023.
 
-![omny phases](./omny-phases.png)
+![omny phases](/images/omny-release-and-risks/omny-phases.png)
 
 This makes sense as retooling the entire system and enabling it all at once would be prime for disaster.
 
@@ -44,7 +44,7 @@ Thankfully, the MTA has been able to learn from Chicago's mistakes and is rollin
 
 It is also interesting to see what risks the MTA has called out surrounding the OMNY release:
 
-![omny risks](./omny-risks.png)
+![omny risks](/images/omny-release-and-risks/omny-risks.png)
 
 Beyond addressing out salient technical issues, many kudos to the MTA for having a bullet point dedicated to "Customer experience" and that they are actively working to address something as difficult as "Changing customer habits and expectations".
 
@@ -66,7 +66,7 @@ Riders with unlimited weekly/monthly passes have been encouraged to "swipe it fo
 
 Lastly: as the magnetic stripe cards are phased out, we will also loose out on hustling for vanity cards:
 
-![supreme metro card](./supreme-metro-card.jpeg)
+![supreme metro card](/images/omny-release-and-risks/supreme-metro-card.jpeg)
 
 There is no way to flex with contactless payments...
 

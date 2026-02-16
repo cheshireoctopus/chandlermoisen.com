@@ -8,7 +8,7 @@ redirects:
   - /twilio-on-rails-sms-basics
 ---
 
-![twilio logo](./logo.png)
+![twilio logo](/images/twilio-on-rails-sms-basics/logo.png)
 
 [Twilio](https://www.twilio.com/) is an awesome platform that makes it super easy to add SMS, voice, and VOIP functionality to your web applications.
 
@@ -24,13 +24,13 @@ This tutorial will show you how to set up an extremely simple Ruby on Rails appl
 
 After you’ve made it through the login, you should be welcomed with this screen:
 
-![twilio home](./twilio1.png)
+![twilio home](/images/twilio-on-rails-sms-basics/twilio1.png)
 
 Make a note of both the **ACCOUNT SID** and the **AUTH TOKEN** – you will need both of these later. To see the latter, click on the lock to view it.
 
 **3:** I like to save my Twilio numbers in my cell because I have a terrible memory. As you can guess, I often forget to do even that. Visiting the ‘Numbers’ pane on the Twilio dashboard – pictured below – provide them for you.
 
-![twilio number](./number.png)
+![twilio number](/images/twilio-on-rails-sms-basics/number.png)
 
 ---
 
@@ -90,7 +90,7 @@ end
 
 Your `index.html.erb` should look like this:
 
-![index.html.erb page](./index.png)
+![index.html.erb page](/images/twilio-on-rails-sms-basics/index.png)
 
 **6:** Now that we’ve made our view and controller, let’s connect them via `routes.rb`. Clear out the comments in the `routes.rb` file, build a root path that directs to `index.html.erb`, and then another path that will post the information from the form we just built to the `send_sms` method in the Twilio controller.
 
@@ -158,7 +158,7 @@ Assuming the code is correct, run the application locally and send yourself a me
 
 If everything works out, you should be able to send SMS messages from your browser!
 
-![twilio cat](./example.png)
+![twilio cat](/images/twilio-on-rails-sms-basics/example.png)
 
 ---
 

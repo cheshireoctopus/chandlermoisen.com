@@ -19,7 +19,7 @@ What follows is an example of a firm prioritizing their own problems.
 
 Earlier this year I signed up for [Bespoke Post](https://bespokepost.com) - a Birchbox-esque play aimed at men with an extra \$60 to spend each month.
 
-![bespoke post](./bespoke-post.jpg)
+![bespoke post](/images/customer-problems-vs-business-problems/bespoke-post.jpg)
 
 It differs from Birchbox in that it gives the user more control over what they receive.
 
@@ -47,11 +47,11 @@ Here is what I had to go through to cancel my Bespoke Post account.
 
 Looking at Bespoke's user dashboard, you will see there is no obvious method to cancel:
 
-![bespoke-post-dashboard](./bespoke-post-dashboard.png)
+![bespoke-post-dashboard](/images/customer-problems-vs-business-problems/bespoke-post-dashboard.png)
 
 I had to click through each menu option - "Account", "Profile", etc. - multiple times before I finally gave up and decided to check the "FAQ" at the bottom of the page:
 
-![bespoke-post-cancellation](./bespoke-post-cancellation.png)
+![bespoke-post-cancellation](/images/customer-problems-vs-business-problems/bespoke-post-cancellation.png)
 
 That is right: I had to send a "pre-formatted email" to the Bespoke team informing them _in writing_ of my intent to cancel.
 
@@ -59,7 +59,7 @@ I will spare you the entirety of the email thread, but, as expected, this was no
 
 Here is the entire workflow for cancelling my Bespoke Post account:
 
-![bespoke-post-cancellation-flow](./bespoke-post-cancellation-flow.png)
+![bespoke-post-cancellation-flow](/images/customer-problems-vs-business-problems/bespoke-post-cancellation-flow.png)
 
 So. Much. Friction.
 

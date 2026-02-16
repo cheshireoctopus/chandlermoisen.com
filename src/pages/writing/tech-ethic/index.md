@@ -4,7 +4,7 @@ date: '2020-08-11'
 tags: ['Ethics']
 ---
 
-![Kant](./kant.jpg)
+![Kant](/images/tech-ethic/kant.jpg)
 
 While reading an [opinionated take](https://creativegood.com/blog/20/this-is-perjury.html) on the recent tech anti-trust hearing, the author, Mark Hurst, linked to an [ethic he developed](https://creativegood.com/blog/20/a-simple-tech-ethic.html) to help software teams gauge the morality of their own products.
 

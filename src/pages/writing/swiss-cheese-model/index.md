@@ -13,7 +13,7 @@ The idea is that you can analyze threats to a system by breaking the system into
 
 Threats to a system thus arise when layer after layer has a hole in the same place:
 
-![Swiss cheese model of accident causation](./swiss_cheese_model_of_accident_causation.png)
+![Swiss cheese model of accident causation](/images/swiss-cheese-model/swiss_cheese_model_of_accident_causation.png)
 
 What I like about this approach is that it considers failure to be systemic as opposed to being the cause of one particular individual. In recent years, technologists have adopted a similar approach with the [blameless post-mortem](https://codeascraft.com/2012/05/22/blameless-postmortems/).
 

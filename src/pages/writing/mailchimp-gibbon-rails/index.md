@@ -8,7 +8,7 @@ redirects:
   - /mailchimp-gibbon-rails
 ---
 
-![mailchip logo](./logo.png)
+![mailchip logo](/images/mailchimp-gibbon-rails/logo.png)
 
 You’ve made it to the big time when you want to start a mailing list. There are many ESP’s (email service providers) out there, each with respective strengths and weaknesses. I’d recommend checking into [MailChimp](https://mailchimp.com/) as they provide an “entrepreneur’s plan” that allows you to send 12,000 emails a month to 2,000 subscribers – **for free, for life.** And because I have no experience with any other ESP…
 

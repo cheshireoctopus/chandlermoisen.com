@@ -15,7 +15,7 @@ I hold a love-hate relationship with the New York Times.
 
 I respect both the quality of the NYT's journalism and the [standards](https://www.nytimes.com/projects/2020-report/index.html) they hold themselves to as journalists. They are doing an amazing job of delivering digital content via high-visual, [innovative experiences](https://www.nytimes.com/interactive/2018/us/2018-year-in-graphics.html):
 
-[![new york times subway map](./new-york-times-subway-map.png)](https://www.nytimes.com/interactive/2019/12/02/nyregion/nyc-subway-map.html)
+[![new york times subway map](/images/ad-free-new-york-times/new-york-times-subway-map.png)](https://www.nytimes.com/interactive/2019/12/02/nyregion/nyc-subway-map.html)
 
 In fact, the reason I pursued software engineering as a career was due to data-driven journalism that was pioneered at the Times by the [D3.js library](https://d3js.org/).
 
@@ -29,7 +29,7 @@ The New York Times [mobile application](http://www.nytimes.com/services/mobile/i
 
 Just this morning I read an [article](https://www.nytimes.com/2019/12/26/nyregion/cruise-ship-exhaust-shore-power-nyc.html) containing **sixteen** advertisements. One of which, for an article titled "How Cruise Ships Bring 1,200 Tons of Toxic Fumes to Brooklyn a Year", was particularly ironic:
 
-![awful new york times ad](./awful-new-york-times-ad.png)
+![awful new york times ad](/images/ad-free-new-york-times/awful-new-york-times-ad.png)
 
 I have written previously about [customer problems vs business problems](/customer-problems-vs-business-problems/). When a business prioritizes its problems at the expense of its customers, the customers' user experience undoubtedly suffers. This is a textbook case of a product team solving for their business problems instead of their customer problems. The NYT's digital product team is prioritizing revenue generation through internet advertisements over their readers' user experience.
 
@@ -45,6 +45,6 @@ There are a number of ways to banish the ads from the articles you are paying to
 2. Use Safari's [Reader Mode](https://www.nytimes.com/2018/07/03/technology/personaltech/safari-reader-mode.html)
 3. Install a VPN like [Nord](https://nordvpn.com/) on your mobile device and make sure you are blocking advertisements in your settings
 
-![nord vpn settings](./nord-vpn-settings.png)
+![nord vpn settings](/images/ad-free-new-york-times/nord-vpn-settings.png)
 
 I prefer the third option as this allows me to continue to use the NYT's mobile applications.

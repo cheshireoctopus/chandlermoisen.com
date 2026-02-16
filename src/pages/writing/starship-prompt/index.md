@@ -33,7 +33,7 @@ Luckily for me I recently came across [Starship](https://starship.rs/) - "the mi
 
 Here is what my prompt looks like after setup and some basic configuration:
 
-![Starship Prompt](./starship_prompt.png)
+![Starship Prompt](/images/starship-prompt/starship_prompt.png)
 
 Besides being incredibly simple to setup and get going, the customization aspect via a `.toml` file
 
