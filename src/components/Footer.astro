@@ -1,18 +1,45 @@
 ---
+import Envelope from '@/assets/envelope.svg';
+import GitHubLogo from '@/assets/github-logo.svg';
+import LinkedInLogo from '@/assets/linkedin-logo.svg';
 import '@/styles/global.css';
 
 const year = new Date().getFullYear();
 ---
 
-<div class="grid gap-2 pt-10 pb-6">
-  <div class="flex gap-2 text-sm font-medium">
-    <a href="/">Home</a>
-    <a href="/experience">Experience</a>
-    <a href="/writing">Writing</a>
-    <a href="/about">About</a>
-  </div>
-
+<div class="flex items-center gap-3 pt-10 pb-6">
   <div class="text-xs font-medium text-gray-500">
     © 2013-{year} Chandler Moisen
+  </div>
+
+  <div class="h-4 rounded border-r-2 border-solid border-gray-500"></div>
+
+  <div class="flex items-center gap-4">
+    <a
+      class="flex items-center gap-1 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+      href="mailto:hello@chandlermoisen.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Envelope class="h-5 w-5" />
+    </a>
+
+    <a
+      class="flex items-center gap-1 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+      href="https://github.com/cheshireoctopus"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <GitHubLogo class="h-5 w-5" />
+    </a>
+
+    <a
+      class="flex items-center gap-1 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+      href="https://www.linkedin.com/in/chandlermoisen"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <LinkedInLogo class="h-5 w-5" />
+    </a>
   </div>
 </div>
