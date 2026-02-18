@@ -5,8 +5,8 @@ const { pathname } = Astro.url;
 
 const linkClass = (href: string) =>
   pathname.includes(href)
-    ? 'dark:text-gray-500 text-black underline'
-    : 'dark:text-gray-500';
+    ? 'dark:text-gray-400 text-black underline'
+    : 'dark:text-gray-400';
 ---
 
 <div class="space-between flex items-center justify-between py-6">
