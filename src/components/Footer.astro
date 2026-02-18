@@ -12,34 +12,40 @@ const year = new Date().getFullYear();
     © 2013-{year} Chandler Moisen
   </div>
 
-  <div class="h-4 rounded border-r-2 border-solid border-gray-500 dark:border-gray-400"></div>
+  <div
+    class="h-4 rounded border-r-2 border-solid border-gray-500 dark:border-gray-400"
+  >
+  </div>
 
   <div class="flex items-center gap-4">
     <a
+      aria-label="Email Chandler Moisen"
       class="flex items-center gap-1 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
       href="mailto:hello@chandlermoisen.com"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Envelope class="h-5 w-5" />
+      <Envelope class="h-5 w-5" aria-hidden="true" />
     </a>
 
     <a
+      aria-label="Chandler Moisen on GitHub"
       class="flex items-center gap-1 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
       href="https://github.com/cheshireoctopus"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <GitHubLogo class="h-5 w-5" />
+      <GitHubLogo class="h-5 w-5" aria-hidden="true" />
     </a>
 
     <a
+      aria-label="Chandler Moisen on LinkedIn"
       class="flex items-center gap-1 text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
       href="https://www.linkedin.com/in/chandlermoisen"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <LinkedInLogo class="h-5 w-5" />
+      <LinkedInLogo class="h-5 w-5" aria-hidden="true" />
     </a>
   </div>
 </div>
