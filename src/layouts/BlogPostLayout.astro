@@ -1,16 +1,30 @@
 ---
-import '@/styles/global.css';
+import dayjs from 'dayjs';
+import type { CollectionEntry } from 'astro:content';
 import Footer from '@/components/Footer.astro';
 import Header from '@/components/Header.astro';
 import DarkModeToggle from '@/components/DarkModeToggle.astro';
-const { frontmatter } = Astro.props;
+import PageTitle from '@/components/PageTitle.astro';
+import '@/styles/global.css';
+
+interface Props {
+  frontmatter: CollectionEntry<'posts'>['data'];
+}
+
+const { frontmatter } = Astro.props as Props;
+
+const formattedDate = dayjs(frontmatter.date).format('MMMM D, YYYY');
 ---
 
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content={frontmatter.description} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><text x="0" y="24" font-size="24">🐙</text></svg>'
+    />
     <title>{frontmatter.title}</title>
 
     <script is:inline>
@@ -43,9 +57,17 @@ const { frontmatter } = Astro.props;
     >
       <Header />
 
-      <main>
-        <slot />
-      </main>
+      <div class="mx-auto">
+        <PageTitle>{frontmatter.title}</PageTitle>
+
+        <div class="mb-10 text-center text-sm font-medium text-gray-400">
+          {formattedDate}
+        </div>
+
+        <main class="prose dark:prose-invert mx-auto">
+          <slot />
+        </main>
+      </div>
 
       <Footer />
 

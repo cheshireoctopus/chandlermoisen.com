@@ -4,7 +4,7 @@ import '@/styles/global.css';
 const { pathname } = Astro.url;
 
 const linkClass = (href: string) =>
-  pathname === href
+  pathname.includes(href)
     ? 'dark:text-gray-500 text-black underline'
     : 'dark:text-gray-500';
 ---
